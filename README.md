@@ -2,7 +2,7 @@
 
 ## 環境構築
 Dockerビルド</br>
- 1.git clone </br>
+ 1.git clone git@github.com:AKawamuraCop/fashionablyLate.git</br>
  2.docker-compose up -d -build
 </br>
 </br>
