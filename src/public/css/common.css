@@ -1,0 +1,45 @@
+.header {
+    display: flex;
+    justify-content: center;
+    /* 中央揃え */
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #ffffff;
+}
+
+.header__inner {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.header__logo-link {
+    text-decoration: none;
+    color: #8B7969;
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.header__nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.register__button-submit, .logout__button-submit, .login__button-submit {
+    background-color: #82756A;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+

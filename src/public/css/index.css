@@ -1,0 +1,129 @@
+.admin__content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+
+}
+
+.admin__heading {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.admin-title, .form__label--item {
+    color: #8B7969;
+}
+
+.contact-form {
+    margin-top: 20px;
+    align-items: center;
+}
+
+.form-group {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-bottom: 15px;
+    align-items: center;
+}
+
+.form__group-title {
+    flex: 0 0 30%;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 5px;
+    font-weight: bold;
+    align-items: center;
+}
+
+.form__label--item {
+    font-weight: bold;
+}
+
+.form__label--required {
+    color: red;
+}
+
+.form__group-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.form__input--text input,
+.form__input--email input,
+.form__input--tel input,
+.form__input--address input,
+.form__input--building input,
+.form__input--category select,
+.form__input--contact textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    justify-content: space-between;
+}
+
+
+.form__input--tel, .form__input--text {
+    display: flex;
+}
+
+.form__input--tel input, .form__input--text input {
+    flex: 1;
+    margin-right: 8px;
+    margin-left: 8px;
+}
+
+.form__input--tel input:last-child {
+    margin-right: 0;
+}
+
+.gender-radio {
+    display: flex;
+    align-items: center;
+}
+
+.gender-radio input {
+    margin-right: 5px;
+}
+
+.gender-radio .form__label--gender {
+    margin-right: 20px;
+}
+
+textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+.form-contact__button {
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+
+}
+.form__button-submit {
+    padding: 10px;
+    width: 30%;
+    height: 50px;
+    border: none;
+    font-size: 18px;
+    background: #82756A;
+    color: #fff;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+.form__button-submit:hover {
+    background-color: #5a4c3d;
+}
+
+.form__error {
+    height: 20px;
+    color: #ff0000;
+    text-align: left;
+}

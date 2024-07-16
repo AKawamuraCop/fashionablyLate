@@ -1,0 +1,150 @@
+.admin__heading {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.admin__content {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.admin__heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.admin-title {
+    font-size: 24px;
+    color: #8B7969;
+    text-align: center;
+    margin: 20px 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.search-form-inner {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.search-form--text {
+    width: 300px;
+}
+
+.search-form select select-gender {
+    width: 70px;
+}
+
+.search-form button {
+    width: 100px;
+}
+
+.search-form select,
+.search-form input,
+.search-form button {
+    padding: 10px;
+    margin-right: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form__button-search,
+.form__button-reset {
+    cursor: pointer;
+    background-color: #a57b5b;
+    color: #fff;
+    border: none;
+}
+
+.action-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.export__button {
+    padding: 10px 20px;
+    background-color: #f0ece6;
+    border: none;
+    color: #8B7969;
+    cursor: pointer;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 20px;
+}
+.pagination ul {
+    list-style-type: none;
+}
+.pagination a {
+    background-color: #f0ece6;
+    border: none;
+    padding: 5px 10px;
+    /* ボタンのパディングを小さく */
+    color: #a57b5b;
+    cursor: pointer;
+    font-size: 14px;
+    /* フォントサイズを小さく */
+    text-decoration: none;
+    /* デフォルトの下線を削除 */
+    border-radius: 4px;
+    /* 角丸にする */
+}
+svg.w-5.h-5 {
+    /*paginateメソッドの矢印の大きさ調整のために追加*/
+    width: 30px;
+    height: 30px;
+}
+.pagination a:hover {
+    background-color: #e0d8cf;
+}
+
+.pagination .active a {
+    background-color: #8c7b6b;
+    color: white;
+}
+
+.contact-table {
+    position: relative;
+}
+
+.contact-table__inner {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    /* 外枠の追加 */
+}
+
+.contact-table__inner th,
+.contact-table__inner td {
+    border-bottom: 1px solid #ccc;
+    border-left: none;
+    border-right: none;
+    padding: 10px;
+    text-align: left;
+}
+
+.contact-table__header {
+    background-color: #f0ece6;
+    color: #8B7969;
+    border-left: 1px solid #ccc;
+    /* 左の外枠 */
+    border-right: 1px solid #ccc;
+    /* 右の外枠 */
+}
+
+.form__detail-button-submit {
+    background-color: #f0ece6;
+    border: none;
+    padding: 5px 10px;
+    color: #8B7969;
+    cursor: pointer;
+}
